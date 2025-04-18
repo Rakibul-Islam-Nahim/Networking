@@ -1,7 +1,7 @@
 # 👋 Welcome to My Networking Journey Repository!
 
 ## 👤 About Me
-Hello! I'm **[Rakibul Islam Nahim]**, a lifelong learner. Recently I am learning deep about Networking, their configuration and how they work in real life senario. 
+Hello! I'm **Rakibul Islam Nahim**, a lifelong learner. Recently I am learning deep about Networking, their configuration and how they work in real life senario. 
 
 Every day, I dive deeper into the world of:
 - Network fundamentals (OSI Model, TCP/IP)
