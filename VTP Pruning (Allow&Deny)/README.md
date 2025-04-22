@@ -1,14 +1,14 @@
-# 👨‍💼 Understanding VTP (VLAN Trunking Protocol)
+# 👨‍💼 Understanding VTP Pruning 
 
-## 📄 What is VTP?
-**VLAN Trunking Protocol (VTP)** is a Cisco proprietary protocol used to manage and synchronize VLAN information across a network of switches. VTP ensures that all switches in a domain have consistent VLAN configuration information.
+## 📄 What is VTP Pruning?
+**VLAN Trunking Protocol (VTP)** is a Cisco proprietary protocol used to manage and synchronize VLAN information across a network of switches. VTP ensures that all switches in a domain have consistent VLAN configuration information. But sometimes A trunk may contain extra VLAN data info which is not necessary or waste of bandwidth. In order to efficiently control the flow we implement VTP pruning to allow and deny certain VLAN packet through a certain Trunk.
 
 ---
 
-## 💡 Why Use VTP?
-- 🛠️ Simplifies VLAN management across multiple switches
-- 📈 Reduces the possibility of configuration errors
-- 🧰 Automates VLAN propagation
+## 💡 Why Use VTP Pruning?
+- 🛠️ Full access Control in trunk
+- 📈 Track Trunk data more easily and impliment security more efficiently
+- 🧰 Automates VLAN propagation with full control
 - 🔄 Ensures consistent VLAN IDs and names throughout the network
 
 ---
@@ -43,7 +43,7 @@ This avoids the need to manually create VLANs on every switch.
 
 ---
 
-## 🛠️ Project Explanation: VTP Configuration (Cisco IOS)
+## 🛠️ Project Explanation: VTP Pruning Configuration (Cisco IOS)
 **Switch0 Configuration: Server**
 ```bash
 vlan 10
