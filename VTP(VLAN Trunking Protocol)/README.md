@@ -118,8 +118,8 @@ swichport access vlan 30
 - So must configure vtp client first and then wait for vlan adoption. After the vlan adopt successfully then we try to configure the access port.
 
 ## TroubleShoot:
-- Check vtp details ```bash show vtp status```
-- check Vlan details ```bash show vlan```
+- Check vtp details ```show vtp status```
+- check Vlan details ```show vlan```
 
 ---
 
