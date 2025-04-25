@@ -83,8 +83,8 @@ This sets VLAN 99 as the native VLAN on trunk port fa3/1. Any untagged traffic r
 
 ## 🔍 Verification Commands
 ```bash
-Switch# show interfaces trunk
-Switch# show vlan brief
+show interfaces trunk
+show vlan brief
 ```
 These commands will display the native VLAN settings and current VLANs on the switch.
 
